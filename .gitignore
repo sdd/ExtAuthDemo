@@ -1,0 +1,46 @@
+### PhPStorm ###
+.idea/
+
+
+### CakePHP ###
+app/tmp/cache/*
+app/tmp/cache/models/cake_*
+app/tmp/cache/persistent/cake_*
+app/tmp/cache/persistent/myapp_*
+app/tmp/cache/views/cake_*
+app/tmp/logs/*.log
+app/tmp/sessions/sess_*
+app/tmp/tests/cake_*
+app/[Cc]onfig/core.php
+app/[Cc]onfig/database.php
+app/[Cc]onfig/app_secrets.php
+!empty
+
+
+### Vendor and Plugin ignored as contents installed with composer, bower, or git submodules ###
+app/Vendor/*
+app/Plugin/*
+
+
+### SASS ###
+app/.sass-cache
+
+
+### Bower ###
+app/webroot/components/*
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+### Thumbnails ###
+._*
+
+
+### Files that might appear on external disk ###
+.Spotlight-V100
+.Trashes
+

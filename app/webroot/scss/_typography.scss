@@ -1,0 +1,28 @@
+$heading_font: 'Sansita One', Arial, sans-serif;
+$heading_font: 'Source Sans Pro', sans-serif;
+$body_font: 'Source Sans Pro', sans-serif;
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $heading_font;
+  background-color: transparent;
+}
+
+body,p {
+  font-family: $body_font;
+}
+
+
+.no-bullets {
+  @include no-bullets;
+}
+
+.inline-block-list-20 {
+  @include inline-block-list(20);
+}
+
+h2 i {
+  background: $cf_green;
+  color: white;
+  border: 5px solid $cf_green;
+  border-radius: 5px;
+}

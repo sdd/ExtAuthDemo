@@ -1,0 +1,21 @@
+#home_top {
+  padding: 75px 12.5% 56px;
+
+  h1 {
+	display: inline-block;
+	width: 75%;
+	vertical-align: middle;
+	font-size: 58px;
+	line-height: 80px;
+  }
+}
+
+#home_2 {
+  background: $cf_green;
+
+  color: white;
+  padding: 55px 6%;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+}

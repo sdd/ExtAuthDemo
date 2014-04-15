@@ -1,0 +1,21 @@
+{
+  "name": "ExtAuth Demo",
+  "version": "0.1.0",
+  "authors": [
+    "Scott Donnelly <scott@donnel.ly>"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/sc0ttyd/ExtAuthDemo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webroot/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome": "sc0ttyd/Font-Awesome#~3.2.0"
+  }
+}

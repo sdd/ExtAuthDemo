@@ -1,0 +1,382 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "32fc1981436aa18a20b651e4980eb238",
+    "packages": [
+        {
+            "name": "cakedc/search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/search.git",
+                "reference": "9bcaa6fe0453a1c9d911b8f25d38e3f64e6943b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/search/zipball/9bcaa6fe0453a1c9d911b8f25d38e3f64e6943b6",
+                "reference": "9bcaa6fe0453a1c9d911b8f25d38e3f64e6943b6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Search"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "email": "team@cakedc.com",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "The Search plugin allows you to make any kind of data searchable, enabling you to implement a robust searching rapidly.",
+            "homepage": "http://github.com/CakeDC/search",
+            "support": {
+                "source": "https://github.com/CakeDC/search/tree/2.2.1",
+                "issues": "https://github.com/CakeDC/search/issues"
+            },
+            "time": "2013-10-21 10:51:10"
+        },
+        {
+            "name": "cakedc/users",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/users.git",
+                "reference": "c28336105942c0f4bdf3597c27cdf62057f3105b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/c28336105942c0f4bdf3597c27cdf62057f3105b",
+                "reference": "c28336105942c0f4bdf3597c27cdf62057f3105b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "cakephp-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Users Plugin for CakePHP",
+            "homepage": "http://cakedc.com",
+            "keywords": [
+                "auth",
+                "cakephp",
+                "users"
+            ],
+            "support": {
+                "source": "https://github.com/CakeDC/users/tree/1.3.1",
+                "issues": "https://github.com/CakeDC/users/issues"
+            },
+            "time": "2013-07-14 21:34:04"
+        },
+        {
+            "name": "cakedc/utils",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/utils.git",
+                "reference": "9d1fd52e93a26ae9de01b347761e0ebedbf0d016"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/utils/zipball/9d1fd52e93a26ae9de01b347761e0ebedbf0d016",
+                "reference": "9d1fd52e93a26ae9de01b347761e0ebedbf0d016",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "cakephp-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Utils Plugin for CakePHP",
+            "homepage": "http://cakedc.com",
+            "keywords": [
+                "cakephp",
+                "utility"
+            ],
+            "support": {
+                "source": "https://github.com/CakeDC/utils/tree/1.3",
+                "issues": "https://github.com/CakeDC/utils/issues"
+            },
+            "time": "2013-05-07 10:25:38"
+        },
+        {
+            "name": "cakephp/debug_kit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/debug_kit.git",
+                "reference": "bbfb1d1993b195b14b2bf7b4c3f37e732ad76195"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/bbfb1d1993b195b14b2bf7b4c3f37e732ad76195",
+                "reference": "bbfb1d1993b195b14b2bf7b4c3f37e732ad76195",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                },
+                "installer-name": "DebugKit"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Story",
+                    "homepage": "http://mark-story.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP Debug Kit",
+            "homepage": "https://github.com/cakephp/debug_kit",
+            "keywords": [
+                "cakephp",
+                "debug",
+                "kit"
+            ],
+            "time": "2014-03-24 21:44:56"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                "shasum": ""
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-04-09 16:12:43"
+        },
+        {
+            "name": "eher/oauth",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EHER/OAuth.git",
+                "reference": "935c1f7709d1c1457de9e250d0e5f29cac06e507"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EHER/OAuth/zipball/935c1f7709d1c1457de9e250d0e5f29cac06e507",
+                "reference": "935c1f7709d1c1457de9e250d0e5f29cac06e507",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "eher/phpunit": "1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eher\\OAuth": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "OAuth 1 PHP Library",
+            "time": "2012-12-13 23:48:10"
+        },
+        {
+            "name": "pear-pear.cakephp.org/CakePHP",
+            "version": "2.3.10",
+            "dist": {
+                "type": "file",
+                "url": "http://pear.cakephp.org/get/CakePHP-2.3.10.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.2.8.0"
+            },
+            "replace": {
+                "pear-cakephp/cakephp": "== 2.3.10.0"
+            },
+            "type": "pear-library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "include-path": [
+                "/"
+            ],
+            "description": "CakePHP is an application development framework for PHP 5.2+"
+        },
+        {
+            "name": "sc0ttyd/ext-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sc0ttyd/ExtAuth.git",
+                "reference": "a7638cd5a1d220b503404b8f7548221029bdddc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sc0ttyd/ExtAuth/zipball/a7638cd5a1d220b503404b8f7548221029bdddc0",
+                "reference": "a7638cd5a1d220b503404b8f7548221029bdddc0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "eher/oauth": "1.0.7",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Donnelly",
+                    "homepage": "http://scott.donnel.ly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CakePHP federated login / external authentication (via OAuth1 and OAuth2) Plugin",
+            "homepage": "https://github.com/sc0ttyd/ExtAuth",
+            "keywords": [
+                "auth",
+                "cakephp",
+                "extauth",
+                "oauth"
+            ],
+            "support": {
+                "source": "https://github.com/sc0ttyd/ExtAuth/tree/master",
+                "issues": "https://github.com/sc0ttyd/ExtAuth/issues"
+            },
+            "time": "2013-12-11 10:06:16"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cakephp/debug_kit": 20,
+        "cakedc/search": 20,
+        "sc0ttyd/ext-auth": 20
+    },
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}

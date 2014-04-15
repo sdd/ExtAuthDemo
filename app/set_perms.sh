@@ -1,0 +1,1 @@
+../deployment/set_perms.sh

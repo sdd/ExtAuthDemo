@@ -1,0 +1,16 @@
+.admin {
+
+  @extend .pad-sides;
+  margin-bottom: 40px;
+
+  h2 {
+  	color: $cf_orange;
+	margin-bottom: 20px;
+	i {
+	  background: $cf_green;
+	  color: white;
+	  border: 5px solid $cf_green;
+	  border-radius: 5px;
+	}
+  }
+}
