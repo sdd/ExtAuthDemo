@@ -11,7 +11,7 @@ app/tmp/cache/views/cake_*
 app/tmp/logs/*.log
 app/tmp/sessions/sess_*
 app/tmp/tests/cake_*
-app/[Cc]onfig/core.php
+#app/[Cc]onfig/core.php
 app/[Cc]onfig/database.php
 app/[Cc]onfig/app_secrets.php
 !empty
